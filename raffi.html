@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Akademik | Raffi Rizkytia Novebryan</title>
+    <style>
+        :root {
+            --primary: #1a3a5f;
+            --secondary: #e67e22;
+            --bg: #f8f9fa;
+            --text: #2c3e50;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Header / Navbar */
+        header {
+            background: var(--white);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .nav-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .nav-name:hover {
+            color: var(--secondary);
+        }
+
+        /* Container Utama */
+        .main-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a3a5f 0%, #2980b9 100%);
+            color: white;
+            padding: 60px 30px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        /* Card Section */
+        .card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            margin-bottom: 25px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* List Styling */
+        .item-list {
+            list-style: none;
+        }
+
+        .item-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .item-list li:last-child {
+            border-bottom: none;
+        }
+
+        .publication-title {
+            font-weight: 600;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Buttons & Links */
+        .btn-action {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-action:hover {
+            background-color: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(230, 126, 34, 0.3);
+        }
+
+        .scholar-link {
+            color: #2980b9;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 2px dotted #2980b9;
+        }
+
+        .email-section {
+            text-align: center;
+            padding: 40px;
+            background: #f1f4f8;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+
+        .contact-btn {
+            background: #27ae60;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            header { padding: 15px 20px; }
+            .hero { padding: 40px 20px; }
+            .hero h1 { font-size: 1.5rem; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="https://scholar.google.com/scholar?q=Raffi+Rizkytia+Novebryan" class="nav-name" target="_blank">
+            Raffi Rizkytia Novebryan
+        </a>
+        <div style="font-size: 0.8rem; color: #666;">Akademisi Hukum</div>
+    </header>
+
+    <div class="main-container">
+        
+        <section class="hero">
+            <h1>Selamat Datang</h1>
+            <p>Mahasiswa Ilmu Hukum & Peneliti Muda Indonesia</p>
+        </section>
+
+        <section class="card">
+            <h2>🎓 Pendidikan</h2>
+            <ul class="item-list">
+                <li>
+                    <strong>Universitas Adhyaksa, Jakarta</strong>
+                    <p style="font-size: 0.9rem; color: #666;">S1 Ilmu Hukum (Sedang Menempuh)</p>
+                </li>
+                <li>
+                    <strong>SMA Pattimura</strong>
+                    <p style="font-size: 0.9rem; color: #666;">Ketua OSIS (Periode 2022–2025)</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>📚 Karya Ilmiah & Publikasi</h2>
+            <p style="margin-bottom: 20px; font-size: 0.95rem;">Berikut adalah beberapa artikel ilmiah yang telah dipublikasikan:</p>
+            
+            <ul class="item-list">
+                <li>
+                    <span class="publication-title">"Potret Eksploitasi Anak sebagai Masalah Sosial dan Dampaknya terhadap Perkembangan Anak" (2025)</span>
+                    <a href="https://ojs.daarulhuda.or.id/index.php/MHI/article/view/2602" target="_blank" class="btn-action">Baca Artikel Lengkap</a>
+                </li>
+                <li>
+                    <span class="publication-title">"Pemidanaan terhadap Penyebaran Informasi Palsu yang Menimbulkan Kepanikan Publik dalam KUHP"</span>
+                    <p style="font-size: 0.85rem; color: #666; margin: 5px 0;">Artikel yang membahas tuntas aspek hukum penyebaran hoax.</p>
+                    <a href="https://jurnal.penerbitdaarulhuda.my.id/index.php/MAJIM/article/view/5021" target="_blank" class="btn-action" style="background-color: #2980b9;">Lihat Detail & Klik Disini</a>
+                </li>
+            </ul>
+            
+            <div style="margin-top: 25px; border-top: 1px solid #eee; padding-top: 20px;">
+                <p>Cek karya lainnya di: <a href="https://scholar.google.com/scholar?q=Raffi+Rizkytia+Novebryan" class="scholar-link" target="_blank">Google Scholar Raffi Rizkytia Novebryan</a></p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>🔗 Terhubung Secara Profesional</h2>
+            <p>Untuk melihat riwayat pengalaman dan jaringan profesional saya:</p>
+            <a href="https://www.linkedin.com/in/raffi-rizkytia-novebryan-5628a1387?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="btn-action">Buka Profil LinkedIn</a>
+        </section>
+
+        <div class="email-section">
+            <h3>Punya Pertanyaan atau Kolaborasi?</h3>
+            <p style="margin-bottom: 20px;">Silakan hubungi saya melalui email resmi universitas:</p>
+            <a href="mailto:raffi.novebryan@stih-adhyaksa.ac.id" class="btn-action contact-btn">📧 Kirim Email ke Raffi</a>
+            <p style="margin-top: 15px; font-size: 0.8rem; color: #7f8c8d;">raffi.novebryan@stih-adhyaksa.ac.id</p>
+        </div>
+
+    </div>
+
+    <footer style="text-align: center; padding: 40px 0; color: #95a5a6; font-size: 0.85rem;">
+        &copy; 2026 Raffi Rizkytia Novebryan | Universitas Adhyaksa
+    </footer>
+
+</body>
+</html>
